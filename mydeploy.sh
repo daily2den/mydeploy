@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-git clone https://github.com/daily2den/mydeploy
-
 ## inits terraform
 [ -d .terraform ] || terrform init
 
