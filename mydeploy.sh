@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 ## inits terraform
-[ -d .terraform ] || terrform init
+[ -d .terraform ] || terraform init
 
 [ -d .ssh ] || mkdir .ssh
 if [ ! -f .ssh/mydeploy ]; then
